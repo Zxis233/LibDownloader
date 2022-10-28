@@ -37,13 +37,13 @@ headers = {
     'Connection': 'keep-alive',
     'Cookie': cookie,
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36',
-    'Referer': 'http://jiaocai1.lib.xjtu.edu.cn:9088/jpath/reader/reader.shtml?channel=100&code=a2b084d0c19020fad2472b2177a8df77&cpage=1&epage=-1&ipinside=0&netuser=0&spage=1&ssno=14761352'
+    'Referer': '▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇'
 }
 
-greetings = "\n欢迎使用「数据删除」开发的「课程教材门户下载器」。" \
+greetings = "\n欢迎使用「数据删除」开发的「▇▇▇▇▇▇▇▇▇▇▇」。" \
             "\n本软件仅供学习使用，下载后请于24h之内删除。\n"
 
-warnings = "注：大量请求会使得ip暂时性遭到NIC封禁，重新拨号获取ip即可。\n"
+warnings = "注：大量请求会使得ip暂时性遭到▇▇▇▇▇▇▇▇▇▇▇▇▇▇封禁，重新拨号获取ip即可。\n"
 
 rush = "行くぞ！\n"
 
@@ -57,11 +57,11 @@ if not cookie:
 else:
     print(colorama.Style.BRIGHT + colorama.Fore.GREEN + f"cookie设置为：{cookie}\n")
 
-url_front = input(colorama.Style.BRIGHT + colorama.Fore.CYAN + "请输入要下载的教材图片源地址，\n"
-                                                               "开头为http://jiaocai1.lib.xjtu.edu.cn:9088，结尾为/ ：\n")
+url_front = input(colorama.Style.BRIGHT + colorama.Fore.CYAN + "请输入要下载的▇▇▇▇▇▇源地址，\n"
+                                                               "开头为▇▇▇▇▇▇▇▇▇，结尾为/ ：\n")
 
 if not cookie:
-    cookie = input(colorama.Style.BRIGHT + colorama.Fore.CYAN + "请输入cookie，开头为jiagong= ：\n")
+    cookie = input(colorama.Style.BRIGHT + colorama.Fore.CYAN + "请输入cookie，开头为▇▇▇▇▇▇▇：\n")
 else:
     cookie_new = input(
         colorama.Style.BRIGHT + colorama.Fore.CYAN + f"是否更新cookie？若不更新则按回车，默认使用文件内配置：cookie={cookie}\n")
